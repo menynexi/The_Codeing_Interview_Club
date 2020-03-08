@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<title>Codeing Interview Club</title>
+<meta charset="UTF-8">
+<meta name="description" content="Technical Interviews have a science and we cna crack it with you">
+<meta name="keywords" content="HTML,CSS, Java, Phyton, Codeing, Problmes, Codeing interview">
+<meta name="author" content="Manuel Gutierrez (Email: meny_nexi@outlook.com)">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/Users/manuelgutierrez/Desktop/WEB_TRAINNING/Interview_Club/src/stylesheet.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>  
+  div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;height: auto;
+  }
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 30%;
+  }
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 50%;
+      margin: 6px 0;
+    }
+  }
+  @media only screen and (max-width: 500px) {.responsive {width: 60%;}}
+  .clearfix:after {
+    content: "";display: table;clear: both;
+  }
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black" style="background-color: blue;">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#staff" class="w3-button w3-block w3-black">STAFF</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#Feedback" class="w3-button w3-block w3-black">FEEDBACK</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag"></span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span style="background-color: black; opacity: 0.2;"><p style = "font-size:80px;color: blue; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">The Codeing Interview Club</p></span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white"></span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE CLUB</span></h5>
+    <p>Technical interviewing is an important skill that encompasses technical knowledge, problem solving, and communication. Tech companies like <strong>Google, Microsoft, Twitter,</strong> and countless other companies often ask their internship and full-time candidates to solve technical questions using Data Structures and Algorithms as a means of evaluating skills.</p>
+    <p>Technical interviews can be daunting, but there's a science to it! We can help demystify the process and provide great practice. 
+       Come to The Coding Interview Club where you can practice technical problems from sites like Leetcode, get advice from students who have previously gone through the interview process, and attend mock interviews run by the club.</p>
+       <div style="text-align: center; display: block; margin-left: 5%; margin-right: 5%;"><img src="/Users/manuelgutierrez/Desktop/WEB_TRAINNING/Interview_Club/img/live_meeting.jpg" style="width:100%; max-width: 1000px;"></div>
+    <!--This is a small box with a randomizer-->
+    <a target="_blank" href="https://leetcode.com/problems/random-one-question/all">
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"Every great developer you know got there by solving problems they were unqualified to solve until they actually did it."</i></p>
+      <p>--Patrick McKenzie</p>
+    </div>
+    </a>
+    
+    <div style="text-align: center; display: block; margin-left: auto; margin-right: auto;"><img src="/Users/manuelgutierrez/Desktop/WEB_TRAINNING/Interview_Club/img/official_poster.png" style="width:75%; max-width: 900px;"></div>
+    <p><strong>Opening hours:</strong> Tuesday && Wednesday from 5:00 pm - 6:00 pm.</p>
+    <p><strong>Location:</strong> CCSB 1.0702 on T && ACES on W</p>
+  </div>
+</div>
+<br>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" style="text-align: center; margin-left: 10%; margin-right: 10%;" id="staff">
+  <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">STAFF</span></h5>
+  <span>
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="https://www.linkedin.com/in/xaviermtz/"> 
+        <img src="/Users/manuelgutierrez/Desktop/WEB_TRAINNING/Interview_Club/img/Xavier.jpeg" alt="President" width="600" height="400">
+      </a>
+      <div class="desc" style="text-align: center;"><span>President</span></div>
+    </div>
+  </div>
+
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="https://www.linkedin.com/in/grecia-navarrete-a116a6192/">
+        <img src="/Users/manuelgutierrez/Desktop/WEB_TRAINNING/Interview_Club/img/Grecia.jpeg" alt="Co-Vice-President" width="600" height="400">
+      </a>
+      <div class="desc" style="text-align: center;"><span>Co-Vice-President</span></div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="https://www.linkedin.com/in/jmrodriguez101/">
+        <img src="/Users/manuelgutierrez/Desktop/WEB_TRAINNING/Interview_Club/img/Jose.jpeg" alt="Co-Vice-President" width="600" height="400">
+      </a>
+      <div class="desc" style="text-align: center;"><span>Co-Vice-President</span></div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="https://www.linkedin.com/in/angeluortega/"> 
+        <img src="/Users/manuelgutierrez/Desktop/WEB_TRAINNING/Interview_Club/img/AngelUOrtega.jpeg" alt="Graduate Advisor" width="600" height="400">
+      </a>
+      <div class="desc" style="text-align: center;"><span>Graduate Advisor</span></div>
+    </div>
+  </div>
+
+  </span>
+
+  <span>
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="https://www.instagram.com/alex.avila.150/?hl=en">
+        <img src="/Users/manuelgutierrez/Desktop/WEB_TRAINNING/Interview_Club/img/alex.jpeg" alt="Web Master" width="600" height="400">
+      </a>
+      <div class="desc" style="text-align: center;"><span>Web Master</span></div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+       <a target="_blank" href="https://www.linkedin.com/in/joseph-medina-sandoval-25714a194/">
+        <img src="/Users/manuelgutierrez/Desktop/WEB_TRAINNING/Interview_Club/img/JosephMedina.jpeg" alt="Forest" width="600" height="400">
+      </a>
+      <div class="desc" style="text-align: center;"><span>Treasurer</span></div>
+    </div>
+  </div>
+
+  <!--<div class="responsive">
+    <div class="gallery">
+       <a target="_blank" href="img_forest.jpg">
+        <img src="/Users/manuelgutierrez/Desktop/WEB_TRAINNING/Interview_Club/img/plain.gif" alt="Northern Lights" width="600" height="400">
+      </a>
+      <div class="desc" style="text-align: center;"><span>Communications Chair</span></div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="img_5terre.jpg"> Incase of personal websites
+        <img src="/Users/manuelgutierrez/Desktop/WEB_TRAINNING/Interview_Club/img/plain.gif" alt="Jose" width="600" height="400">
+      </a>
+      <div class="desc" style="text-align: center;"><span></span></div>
+    </div>
+  </div>
+-->
+</span>
+</div>
+
+<br>
+<div class="w3-container" id="Feedback" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Feedback</span></h5>
+    <p>What do you want to see? What do you want to learn? We will help you just send us an email.</p>
+    <p><span class="w3-tag">FYI!</span> We offer mock Interviews to prepare you for your technical interviews. We have individuals who have gone trught the technical process and have <strong> landed summer internships in Google, Microsoft, Facebook, Palantir and Twitter</strong>. Email us for more information.</p>
+    <form action="#" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="email" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="How can we help?" required name="How can we help"></p>
+      <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-large">
+  <!--<p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>-->
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
