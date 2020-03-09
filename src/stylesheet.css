@@ -1,6 +1,5 @@
 /* Manuel Gutierrez classes 2020 */
 body, html {height: 100%;font-family: "Inconsolata", sans-serif;}
-.bgimg {background-position: center;background-size: cover;background-image: url("/Users/manuelgutierrez/Desktop/WEB_TRAINNING/Interview_Club/img/front_img.jpg");min-height: 75%;}
 .menu {display: none;}
 div.gallery {border: 1px solid #ccc;}
 div.gallery:hover {border: 1px solid #777;}
