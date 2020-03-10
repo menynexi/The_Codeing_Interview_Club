@@ -9,7 +9,27 @@
 <link rel="stylesheet" href="/Users/manuelgutierrez/Desktop/WEB_TRAINNING/Interview_club_git/src/stylesheet.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
 <style>
-  .bgimg {background-position: center;background-size: cover;background-image: url("/Users/manuelgutierrez/Desktop/WEB_TRAINNING/Interview_club_git/img/front_img.jpg");min-height: 75%;}
+  div.transbox {
+    margin: 40px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    word-wrap: break-word;
+  }
+
+  div.transbox p {
+    margin: 4%;
+    font-weight: bold;
+    color: #000000;
+    word-wrap:  break-word;
+  }
+
+  .bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("/Users/manuelgutierrez/Desktop/WEB_TRAINNING/Interview_club_git/img/frontpage_2.jpg");
+    min-height: 75%;
+  }
   div.gallery {
     border: 1px solid #ccc;
   }
@@ -70,7 +90,11 @@
     <span class="w3-tag"></span>
   </div>
   <div class="w3-display-middle w3-center">
-    <span style="background-color: black; opacity: 0.2;"><p style = "font-size:80px;color: blue; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">The Coding Interview Club</p></span>
+    <div>
+      <div class="transbox">
+        <p style = "font-size:70px; color: blue; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Coding Interview Club</p>
+      </div>
+    </div>
   </div>
   <div class="w3-display-bottomright w3-center w3-padding-large">
     <span class="w3-text-white"></span>
